@@ -1,0 +1,12 @@
+section{
+    color:var(--color-primary);
+    background-color: var(--color-bg);
+    display:flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 1rem;
+    flex-direction: row;
+    margin-left: 1rem;
+}

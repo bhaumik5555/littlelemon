@@ -1,10 +1,16 @@
 import './App.css';
+import Header from './Components/Header/Header'
+import Navigation from './Components/Nav/Nav'
+import Main from './Components/Main/Main'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
     <div className="App">
-      <h1>Homepage</h1>
-      <h2>Made by Bhaumik</h2>
+        <Header/>
+        <Navigation/>
+        <Main/>
+        <Footer/>
     </div>
   );
 }
