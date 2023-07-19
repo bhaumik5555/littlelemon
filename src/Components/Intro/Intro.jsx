@@ -1,8 +1,8 @@
 import React from 'react'
 
-function handleReserveTable() {
-    console.log('Table Reserved!');
-  }
+// function handleReserveTable() {
+//     console.log('Table Reserved!');
+//   }
 
 const Intro = () => {
   return (
