@@ -8,18 +8,6 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import './footer.css'
 
 const Footer = () => {
-    // const [email, setEmail] = useState('');
-
-    // const handleSubscribe = (e) => {
-    //   e.preventDefault();
-    //   if (email.type){
-    //     alert('Thank you for subscribing')
-    //   }
-    //   else{
-    //   alert('Please enter valid email id');
-    //   }
-    // }
-
   return (
     <section className='footer_container'>
       <Container>
@@ -57,7 +45,7 @@ const Footer = () => {
             </Card>
           </Col>
 
-          <Col xs={5}>
+          <Col>
             <Card className='footer_container card_container' style={{ width: '18rem'}}>
               <Card.Body>
                 <Card.Title>GET NEWS & OFFERS</Card.Title>
@@ -67,24 +55,6 @@ const Footer = () => {
               </Card.Body>
             </Card>
             <InputGroup>
-              {/* <Form.Control
-                placeholder="Your Email Id"
-                aria-label="Recipient's email id"
-                aria-describedby="basic-addon2"
-              /> */}
-              {/* <form onSubmit={handleSubscribe}>
-                <input
-                  type='email'
-                  placeholder='Your Email Id'
-                  aria-describedby='basic-addon2'
-                  value={email}
-                  onChange={(e)=>setEmail(e.target.value)}
-                />
-                <Button variant="outline-secondary" id="button-addon2" className='text-white' type='submit'>
-                  SUBSCRIBE
-                </Button>
-              </form> */}
-
               <Formik
                 initialValues={{ email: ''}}
                 validate={values => {
