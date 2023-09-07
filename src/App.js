@@ -11,6 +11,7 @@ function App() {
         <Navigation/>
         <Main/>
         <Footer/>
+        <p>Bhaumik</p>
     </div>
   );
 }
