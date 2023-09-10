@@ -24,6 +24,7 @@ function App() {
           <Route path="/reservation" element={<Reservation />}></Route>
         </Routes>
         <Footer/>
+        <p>Bhaumik</p>
     </div>
   );
 }
