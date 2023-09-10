@@ -1,9 +1,9 @@
-import React from 'react'
-
-const Contact = () => {
+function Contact() {
   return (
-    <div>Contact Page</div>
+      <div>
+        Contact Little Lemon on this page.
+      </div>
   )
 }
 
-export default Contact
+export default Contact;
