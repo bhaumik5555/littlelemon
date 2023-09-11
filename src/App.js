@@ -3,7 +3,6 @@ import './App.css';
 import {Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header'
 import Navigation from './Components/Nav/Nav'
-import Main from './Components/Main/Main'
 import Footer from './Components/Footer/Footer'
 import Home from './Components/Main/Main'
 import About from './Components/Intro/Intro'
@@ -24,7 +23,6 @@ function App() {
           <Route path="/reservation" element={<Reservation />}></Route>
         </Routes>
         <Footer/>
-        <p>Bhaumik</p>
     </div>
   );
 }

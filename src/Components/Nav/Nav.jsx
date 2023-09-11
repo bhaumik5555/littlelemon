@@ -10,6 +10,7 @@ const Navigation = () => {
         <Navbar.Brand href="#home">Little Lemon</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
+
           <Nav className="me-auto" variant="pills">
           <LinkContainer to="/">
             <Nav.Link>Home</Nav.Link>
@@ -27,6 +28,7 @@ const Navigation = () => {
             <Nav.Link>Reservation</Nav.Link>
           </LinkContainer>
           </Nav>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
