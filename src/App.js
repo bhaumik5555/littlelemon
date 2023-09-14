@@ -9,6 +9,7 @@ import About from './Components/Intro/Intro'
 import Menu from './Components/Menu/Menu'
 import Contact from './Components/Contact/Contact'
 import Reservation from './Components/Reservation/Reservation'
+import Payment from './Components/Payment/Payment'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/menu" element={<Menu />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/reservation" element={<Reservation />}></Route>
+          <Route path="/payment" element={<Payment />}></Route>
         </Routes>
         <Footer/>
     </div>
