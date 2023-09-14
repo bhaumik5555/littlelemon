@@ -1,0 +1,56 @@
+/* Styles for the form container */
+.form-class {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles for form groups (field + label) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Styles for input fields and select boxes */
+  /* input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */
+  
+  /* Styles for error messages */
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Styles for the submit button */
+  #reservation-button[type="submit"] {
+    background-color: var(--color-bg);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for the submit button */
+  #reservation-button[type="submit"]:hover {
+    background-color: var(--color-bg-variant);
+  }
+  

@@ -1,9 +1,9 @@
-/* Styles for the form container */
-.form {
+/* Styles for the payment page container */
+.form-class {
     font-family: Arial, sans-serif;
-    /* max-width: 400px; */
+    max-width: 400px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
@@ -20,9 +20,9 @@
   }
   
   /* Styles for input fields */
-  input[type="text"],
-  input[type="email"],
-  textarea {
+  #cardNumber,
+  #expiryDate,
+  #cvv {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -39,8 +39,8 @@
   }
   
   /* Styles for the submit button */
-  button[type="submit"] {
-    background-color: #007bff;
+  #submit-button {
+    background-color: var(--color-bg);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -50,7 +50,7 @@
   }
   
   /* Hover effect for the submit button */
-  button[type="submit"]:hover {
-    background-color: #0056b3;
+  #submit-button:hover {
+    background-color: var(--color-bg-variant);
   }
   
