@@ -1,6 +1,7 @@
 import Slider from '../Slider/Slider';
 import Menu from '../Menu/Menu';
-import Feedback from '../Feedback/Feedback';
+import Intro from '../Intro/Intro';
+// import Feedback from '../Feedback/Feedback';
 import './main.css';
 
 const Main = () => {
@@ -9,8 +10,9 @@ const Main = () => {
     <div className="sliderContainer">
       <Slider/>
     </div>
+    <Intro/>
     <Menu/>
-    <Feedback/>
+    {/* <Feedback/> */}
     </>
   )
 }

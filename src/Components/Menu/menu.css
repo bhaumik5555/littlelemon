@@ -1,0 +1,15 @@
+
+  
+  .card-group-class {
+    overflow-x: auto;
+    max-width: 100%;
+    display: flex; /* Ensure the cards are displayed in a row */
+    flex-wrap: nowrap !important;
+    margin: 2rem;
+    padding:2rem;
+
+  }
+
+  .card {
+    min-width:250px !important;
+  }

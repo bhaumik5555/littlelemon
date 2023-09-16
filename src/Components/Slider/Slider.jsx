@@ -1,11 +1,11 @@
 import React from 'react'
 import SwiftSlider from 'react-swift-slider'
-import image1 from '../../assets/Images/Food/1.avif';
+import image1 from '../../assets/Images/Food/1.jpg';
 import image2 from '../../assets/Images/Food/2.jpg';
 import image3 from '../../assets/Images/Food/3.jpg';
-import image4 from '../../assets/Images/Food/4.webp';
+import image4 from '../../assets/Images/Food/4.jpg';
 import image5 from '../../assets/Images/Food/5.jpg';
-import image6 from '../../assets/Images/Food/6.jpg';
+import image6 from '../../assets/Images/Food/6.jpeg';
 
 
 const data =  [

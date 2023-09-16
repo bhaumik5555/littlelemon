@@ -6,3 +6,11 @@
     display:flex;
     align-items: center;
 }
+
+.intro-container-class{
+    margin:4rem 2rem;
+}
+
+.intro-card-class{
+    margin-bottom: 1rem;
+}
