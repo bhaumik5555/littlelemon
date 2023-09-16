@@ -67,6 +67,11 @@ const initialValues = {
   comment: '',
 };
 
+const handleclick = (e) => {
+  const { linkdisabled } = this.state
+  if(linkdisabled) e.preventdefault()
+}
+
 const Reservation = () => {
   const handleSubmit = (values) => {
     // Handle form submission here, e.g., make a reservation
@@ -173,7 +178,8 @@ const Reservation = () => {
           </div>
 
           <button type="submit" id='reservation-button' disabled={!isValid}>
-            <LinkContainer to="/payment">
+            {/* <LinkContainer to={isValid ? "/payment" : ""} disabled={!isValid}>  */}
+            <LinkContainer to="/payment" disabled={!isValid} onclick={handleclick}> 
               <Nav.Link>Proceed to Payment</Nav.Link>
             </LinkContainer>
           </button>

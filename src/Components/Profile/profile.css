@@ -1,3 +1,8 @@
 .profilePicture{
-    border-radius: 50%;
+    border-radius: 50% !important; 
+}
+
+.profile-card-class{
+    margin:0 2rem;
+    height:100% !important;
 }
