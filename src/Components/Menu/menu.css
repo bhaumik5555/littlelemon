@@ -5,8 +5,8 @@
     max-width: 100%;
     display: flex; /* Ensure the cards are displayed in a row */
     flex-wrap: nowrap !important;
-    margin: 2rem;
-    padding:2rem;
+    margin: 0.5rem;
+    padding:1rem;
 
   }
 

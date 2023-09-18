@@ -14,6 +14,7 @@ import Image8 from '../../assets/Images/Profile Pictures/8.jpeg'
 import Image9 from '../../assets/Images/Profile Pictures/9.jpeg'
 import './contact.css'
 
+
 const validationSchema = Yup.object().shape({
   firstName: Yup.string().max(20, 'Max 20 characters').required('Required'),
   lastName: Yup.string().max(15, 'Max 15 characters').required('Required'),
